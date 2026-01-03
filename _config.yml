@@ -1,6 +1,7 @@
 title: aayush@terminal
 description: Linux, code, and ideas.
 author: Aayush Sahay
+repository: AaySah92/aaysah92.github.io
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
   - jekyll-remote-theme

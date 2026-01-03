@@ -4,6 +4,11 @@ layout: post
 tags:
    - Linux
    - CLI
+   - BAT
+   - FD
+   - LSD
+   - FZF
+   - TMUX
 ---
 
 I have been using Linux on my personal laptop since 2012. And over the years, I have grown more and more comfortable with the command-line interface (CLI). It was a great feeling in the early years when I'd ***UPDATE*** my Fedora Workstation (I remember I started with Fedora 16). That was the only time, I would open the terminal. And I loved it. Well... that and when I would break my installation and Stack Overflow would tell me to run `<this command>` in the terminal.
@@ -35,7 +40,7 @@ View source on GitHub ↗
 
 `fd` is a replacement for `find`, but it's faster and more intuitive. 
 
-Let's say you want to find a config file in the /etc directory and you only know part of the name. You'd run something like `find /etc -iname '*httpd*'`. With `fd`, it would be as simple as `fd http /etc`. It might not look much, but when you're constantly working on servers, it saves you a couple of keystrokes.
+Let's say you want to find a config file in the /etc directory, and you only know part of the name. You'd run something like `find /etc -iname '*httpd*'`. With `fd`, it would be as simple as `fd http /etc`. It might not look much, but when you're constantly working on servers, it saves you a couple of keystrokes.
 
 On top of that, `fd` respects the `.gitignore` entries. Isn't that great? Let me show you what I mean. I'll search for my tmux config file in my git repo which has other config files that are present in `.gitignore`.
 
@@ -132,7 +137,7 @@ Focus on the left AND right side bottom corner of the screen. That's the tmux st
    allowfullscreen>
 </iframe>
 
-Obviously, my tmux is customized which is why it looks nicer AND it's why I can move about so quickly. I'm using the key combinations that work for me. You can find my tmux configuration [here](https://github.com/AaySah92/config_dotfiles).
+Obviously, my tmux is customized which is why it looks nicer AND it's why I can move about so quickly. I'm using the key combinations that work for me. You can find my tmux configuration <a href="https://github.com/AaySah92/config_dotfiles" target="_blank" rel="noopener noreferrer">here ↗</a>.
 
 <a href="https://github.com/tmux/tmux" target="_blank" rel="noopener noreferrer">
 View source on GitHub ↗
