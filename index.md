@@ -9,7 +9,7 @@ layout: default
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <a class="post-link" style="text-decoration: none;" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
       {% if site.show_excerpts %}
         {{ post.excerpt }}
