@@ -1,5 +1,5 @@
 ---
-title: "Automating CLI Setup Across Multiple Linux Distributions"
+title: "🧑‍💻 Automating CLI Setup Across Multiple Linux Distributions"
 layout: post
 tags:
    - Linux

@@ -1,5 +1,5 @@
 ---
-title: "CLI Essentials"
+title: "🧑‍💻 CLI Essentials"
 layout: post
 tags:
    - Linux

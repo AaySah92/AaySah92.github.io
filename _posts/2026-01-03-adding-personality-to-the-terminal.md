@@ -1,5 +1,5 @@
 ---
-title: "Adding Personality to the Terminal"
+title: "🧑‍💻 Adding Personality to the Terminal"
 layout: post
 tags:
    - Linux
